@@ -1,0 +1,10 @@
+Build your own image
+1. Dockerfiles are part process workflow and part art
+2. Take existing Node.js app and Dockerize it
+3. Make Dockerfile. Build it. Test it. Push it. Remove it. Run it
+4. Expect this to be iterative. Rarely do I get it right the first time.
+5. Details in Dockerfile
+6. Use the Alpine version of the official 'node' 6.x image
+7. Expected rusult is web site at http://localhost
+8. Tag and push to your Docker Hub account
+9. Remove your image from local cache, run again from Hub
